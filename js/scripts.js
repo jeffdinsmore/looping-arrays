@@ -18,24 +18,21 @@ $(document).ready(function() {
     let numbers = Array.from(Array(userInput + 1).keys());
     let number3 = numbers.filter(input => input.toString().includes("3"));
     let number2 = numbers.filter(input => input.toString().includes("2"));
-    let number2 = numbers.filter(input => input.toString().includes("2"));
+    let number1 = numbers.filter(input => input.toString().includes("1"));
     
-    let xArray = [];
-    numbers.forEach(function(letter) {
-      if (number3.includes(letter)) {
-        xArray.push("Won't you be my neighbor?");
-      } else if (number2.includes(letter)) {
-        xArray.push("Boop!");
-      } else if (number1.includes(letter)) {
-        xArray.push("Beep!");
+    let newArray = [];
+    numbers.forEach(function(number) {
+      if (number3.includes(number)) {
+        newArray.push("Won't you be my neighbor?");
+      } else if (number2.includes(number)) {
+        newArray.push("Boop!");
+      } else if (number1.includes(number)) {
+        newArray.push("Beep!");
       } else {
-        xArray.push(letter);
+        newArray.push(number);
       }
     });
-    const finalString = xArray.join(", ");
-  
-
-
+    const finalString = newArray.join(", ");
 
     $("#result").text(finalString);
     event.preventDefault();
