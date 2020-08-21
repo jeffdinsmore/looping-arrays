@@ -34,6 +34,7 @@ $(document).ready(function() {
     });
     const finalString = newArray.join(", ");
 
+    $(".pink").show();
     $("#result").text(finalString);
     event.preventDefault();
   });
