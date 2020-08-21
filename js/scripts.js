@@ -17,20 +17,24 @@ $(document).ready(function() {
     const userInput = parseInt($("#input").val());
     let numbers = Array.from(Array(userInput + 1).keys());
     let number3 = numbers.filter(input => input.toString().includes("3"));
+    
     console.log(number3);
     
     
     let newArray = [];
-      for (let i = 0; i < number3.length; i++) {
-        for (let j = 0; j < numbers.length; j ++)
-        if (numbers[j] === number3[i]) {
+      for (let i = 0; i < numbers.length; i++) {
+        for (let j = 0; j < number3.length; j ++) 
+        if (numbers.includes("3")) {
           newArray.push(" Won't you be my neighbor?");
         // } else if (numbers[i] === 2) {
         //   newArray.push(" Boop!")
         // } else if (numbers[i] === 1) {
         //   newArray.push(" Beep!")
-        } else {
-        newArray.push(" " + i);
+        }
+        else if (numbers[i] !== number3[j]) {
+          newArray.push(" " + i);
+      
+      
       
       }
     }
