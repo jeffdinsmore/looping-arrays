@@ -21,25 +21,25 @@ $(document).ready(function() {
     
     
     let newArray = [];
-    function replace3(numbers, number3) {
+    numbers.forEach(function(element1, element2) {
       for (let i = 0; i < numbers.length; i++) {
-        for (let j = 0; j < number3.length; j ++) {
-        if (numbers[i] === number3[j]) {
+        for (let j = 0; j < number3.length; j ++)
+        if (element1[i] === element2[j]) {
           newArray.push(" Won't you be my neighbor?");
-        } else if (numbers === 2) {
+        } else if (element1 === 2) {
           newArray.push(" Boop!")
-        } else if (numbers === 1) {
+        } else if (element1 === 1) {
           newArray.push(" Beep!")
         } else {
-        newArray.push(" " + numbers);
+        newArray.push(" " + element1);
       }
       }
-      }
+    
       // if (element === 3) {
       // newArray.push(" Won't you be my neighbor?");
       // } 
-    }
-    console.log(newArray);
+    });
+    // console.log(newArray);
 
     // console.log(numbers);
 
