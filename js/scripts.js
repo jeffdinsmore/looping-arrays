@@ -16,23 +16,32 @@ $(document).ready(function() {
   
     const userInput = parseInt($("#input").val());
     let numbers = Array.from(Array(userInput + 1).keys());
+    let number3 = numbers.filter(input => input.toString().includes("3"));
+    console.log(number3);
     
     
     let newArray = [];
-    numbers.forEach(function(element) {
-      if (element === 3) {
-      newArray.push(" Won't you be my neighbor?");
-      } else if (element === 2) {
+    function replace3(numbers, number3) {
+      for (let i = 0; i < numbers.length; i++) {
+        for (let j = 0; j < number3.length; j ++) {
+        if (numbers[i] === number3[j]) {
+          newArray.push(" Won't you be my neighbor?");
+        } else if (numbers === 2) {
           newArray.push(" Boop!")
-      } else if (element === 1) {
+        } else if (numbers === 1) {
           newArray.push(" Beep!")
-      } else {
-        newArray.push(" " + element);
+        } else {
+        newArray.push(" " + numbers);
       }
-    });
+      }
+      }
+      // if (element === 3) {
+      // newArray.push(" Won't you be my neighbor?");
+      // } 
+    }
     console.log(newArray);
 
-    console.log(numbers);
+    // console.log(numbers);
 
     
   
