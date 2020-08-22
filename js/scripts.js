@@ -1,10 +1,5 @@
 // Business logic:
 
-// const userInput = "#input";
-// let numbers = Array.from(Array(userInput).keys());
-
-// console.log(numbers);
-
 
 
 
