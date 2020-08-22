@@ -10,7 +10,11 @@ label, button {
 }
 
 .pink {
-  background-color: pink;
+  background-color: #FDE7E2;
   padding: 20px;
   display: none;
+}
+
+.jumbotron {
+  background-color: #EBF0EE;
 }
