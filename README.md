@@ -41,7 +41,7 @@ Any known issues, please reach out to Jeff Dinsmore by email at hello@jeffdinsmo
 * _CSS_
 * _Bootstrap_
 * _jQuery_
-* _javascript_
+* _JavaScript_
 
 ### License
 

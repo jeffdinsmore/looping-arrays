@@ -5,16 +5,27 @@ header, footer {
   width: 300px;
 }
 
-label, button {
+label {
   margin: 20px 0px 20px 0px;
+}
+
+button {
+  margin: 20px 0px 20px 0px;
+  border: 1px solid #BFBFBF;
+  box-shadow: 5px 5px 3px #aaaaaa;
 }
 
 .pink {
   background-color: #FDE7E2;
   padding: 20px;
   display: none;
+  border: 1px solid #BFBFBF;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border-radius: 5px;
 }
 
 .jumbotron {
   background-color: #EBF0EE;
+  border: 1px solid #BFBFBF;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
