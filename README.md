@@ -6,7 +6,7 @@
 
 ## Description
 
-This website asks a person to input a number of their choice and returns the numbers with some specifications listed here.
+_This website asks a person to input a number of their choice and returns the numbers with some specifications listed here._
 
 Describe: loopArray()
 
@@ -28,12 +28,16 @@ Spec 3: The program searches for all instances of "2" and replaces this number w
 
 ## Setup/Installation Requirements
 
-* Clone this repository.
-* In the cloned folder, double click on index or index.html. If the file doesn't open, right click on index or index.html and "open with" your browser of choice._
+* _Clone this repository._
+* _In the cloned folder, double click on index or index.html. If the file doesn't open, right click on index or index.html and "open with" your browser of choice._
+
+## Known Bugs
+
+_No known bugs currently._
 
 ## Support and contact details
 
-Any known issues, please reach out to Jeff Dinsmore by email at hello@jeffdinsmore.com.
+_Any known issues, please reach out to Jeff Dinsmore by email at hello@jeffdinsmore.com._
 
 ## Technologies Used
 
@@ -43,7 +47,8 @@ Any known issues, please reach out to Jeff Dinsmore by email at hello@jeffdinsmo
 * _jQuery_
 * _JavaScript_
 
-### License
+## License
 
-Copyright (c) 2020 Jeff Dinsmore
+Copyright (c) 2020, **_Jeff Dinsmore_**
+
 This software is licensed under the MIT license.

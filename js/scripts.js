@@ -11,6 +11,7 @@ $(document).ready(function() {
     
     const userInput = parseInt($("#input").val());
     let numbers = Array.from(Array(userInput + 1).keys());
+    console.log(numbers);
     let number3 = numbers.filter(input => input.toString().includes("3"));
     let number2 = numbers.filter(input => input.toString().includes("2"));
     let number1 = numbers.filter(input => input.toString().includes("1"));
